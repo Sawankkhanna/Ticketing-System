@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ticketing System</title>
+    <link rel="stylesheet" href="./main.css" />
+    <!-- <script src="./main.js"></script> -->
+  </head>
+  <body>
+    <div id="main-div">
+      <img src="./flight.png" alt="Flight Booking Logo" />
+
+      <div>
+        <form action="homepage.php" method="post">
+          <div class="credential">
+            <h3>USERNAME:</h3>
+            <input
+              type="text"
+              id="user"
+              name="username"
+              placeholder="Enter your user name"
+              minlength="5"
+              maxlength="5"
+              required
+            />
+          </div>
+
+          <br />
+
+          <div class="credential">
+            <h3>PASSWORD:</h3>
+            <input
+              type="password"
+              id="pass"
+              name="password"
+              placeholder="Enter your password"
+              minlength="8"
+              maxlength="8"
+              required
+            />
+          </div>
+          <div id="button-div">
+            <button type="submit">Log In</button>
+            <button type="reset">Clear</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
